@@ -1,0 +1,40 @@
+/* Example CSS for the component */
+.container {
+    padding: 1rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .button {
+    background-color: #66c6ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #30a742;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .add-link {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  .add-link:hover {
+    text-decoration: underline;
+  }
+  
+  

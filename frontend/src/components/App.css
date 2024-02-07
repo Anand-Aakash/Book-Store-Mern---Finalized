@@ -1,0 +1,25 @@
+body{
+    /* background: linear-gradient(90deg, rgb(195, 240, 239) 0%, rgb(139, 102, 241) 100%); */
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
+table{
+    background: linear-gradient(288deg, rgb(178, 243, 204) 0%, rgb(139, 102, 241) 100%);}
+
+.background-image {
+    /* Set the background image */
+    background-image: url('./img/bookstore.jpeg');
+    
+    /* Set background size and positioning */
+    background-size: cover;
+    background-position: center;
+    
+    /* Make the background image fixed */
+    background-attachment: fixed;
+  
+    /* Set other styles as needed */
+    /* For example, height to ensure the image covers the entire viewport */
+    height: 100vh;
+  }
+
+  
